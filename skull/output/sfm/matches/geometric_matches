@@ -43,7 +43,6 @@ node [shape=circle]
  n46 --  n48
  n45 --  n46
  n44 --  n64
- n44 --  n63
  n44 --  n62
  n44 --  n45
  n43 --  n63
@@ -57,6 +56,7 @@ node [shape=circle]
  n41 --  n43
  n41 --  n42
  n40 --  n61
+ n40 --  n60
  n40 --  n43
  n40 --  n42
  n40 --  n41
@@ -161,6 +161,7 @@ node [shape=circle]
  n19 --  n26
  n19 --  n25
  n19 --  n24
+ n19 --  n22
  n19 --  n21
  n19 --  n20
  n18 --  n67
@@ -232,7 +233,6 @@ node [shape=circle]
  n10 --  n27
  n10 --  n13
  n10 --  n11
- n9 --  n57
  n9 --  n29
  n9 --  n28
  n9 --  n27

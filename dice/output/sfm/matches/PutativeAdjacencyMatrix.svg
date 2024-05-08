@@ -63,7 +63,7 @@ width="185px" height="185px" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18
 <rect x="135" y="5" width="2.5" height="2.5" fill="rgb(22,0,232)" opacity="1"/>
 <rect x="140" y="5" width="2.5" height="2.5" fill="rgb(30,0,224)" opacity="1"/>
 <rect x="145" y="5" width="2.5" height="2.5" fill="rgb(39,0,215)" opacity="1"/>
-<rect x="150" y="5" width="2.5" height="2.5" fill="rgb(21,0,233)" opacity="1"/>
+<rect x="150" y="5" width="2.5" height="2.5" fill="rgb(22,0,232)" opacity="1"/>
 <rect x="155" y="5" width="2.5" height="2.5" fill="rgb(15,0,239)" opacity="1"/>
 <rect x="160" y="5" width="2.5" height="2.5" fill="rgb(12,0,242)" opacity="1"/>
 <rect x="165" y="5" width="2.5" height="2.5" fill="rgb(12,0,242)" opacity="1"/>
@@ -258,7 +258,7 @@ width="185px" height="185px" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18
 <rect x="130" y="40" width="2.5" height="2.5" fill="rgb(24,0,230)" opacity="1"/>
 <rect x="135" y="40" width="2.5" height="2.5" fill="rgb(15,0,239)" opacity="1"/>
 <rect x="140" y="40" width="2.5" height="2.5" fill="rgb(14,0,240)" opacity="1"/>
-<rect x="145" y="40" width="2.5" height="2.5" fill="rgb(11,0,243)" opacity="1"/>
+<rect x="145" y="40" width="2.5" height="2.5" fill="rgb(10,0,244)" opacity="1"/>
 <rect x="150" y="40" width="2.5" height="2.5" fill="rgb(12,0,242)" opacity="1"/>
 <rect x="155" y="40" width="2.5" height="2.5" fill="rgb(13,0,241)" opacity="1"/>
 <rect x="160" y="40" width="2.5" height="2.5" fill="rgb(10,0,244)" opacity="1"/>
@@ -435,7 +435,7 @@ width="185px" height="185px" preserveAspectRatio="xMinYMin meet" viewBox="0 0 18
 <rect x="115" y="85" width="2.5" height="2.5" fill="rgb(17,0,237)" opacity="1"/>
 <rect x="120" y="85" width="2.5" height="2.5" fill="rgb(16,0,238)" opacity="1"/>
 <rect x="125" y="85" width="2.5" height="2.5" fill="rgb(20,0,234)" opacity="1"/>
-<rect x="130" y="85" width="2.5" height="2.5" fill="rgb(34,0,220)" opacity="1"/>
+<rect x="130" y="85" width="2.5" height="2.5" fill="rgb(35,0,219)" opacity="1"/>
 <rect x="135" y="85" width="2.5" height="2.5" fill="rgb(33,0,221)" opacity="1"/>
 <rect x="140" y="85" width="2.5" height="2.5" fill="rgb(20,0,234)" opacity="1"/>
 <rect x="145" y="85" width="2.5" height="2.5" fill="rgb(9,0,245)" opacity="1"/>

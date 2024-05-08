@@ -1,0 +1,21 @@
+21:44:09 [App     ] OpenMVS x64 v2.3.0
+21:44:09 [App     ] Build date: Apr 23 2024, 21:41:43
+21:44:09 [App     ] CPU: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz (16 cores)
+21:44:09 [App     ] RAM: 9.72GB Physical Memory 10.00GB Virtual Memory
+21:44:09 [App     ] OS: Linux 5.15.146.1-microsoft-standard-WSL2 (x86_64)
+21:44:09 [App     ] Disk: 47.45GB (91.80GB) space
+21:44:09 [App     ] SSE & AVX compatible CPU & OS detected
+21:44:09 [App     ] Command line: TextureMesh scene_dense.mvs -m scene_dense_mesh.ply -w tests/dice/output/mvs --export-type obj -o dice.obj
+21:44:09 [App     ] Camera model loaded: platform 0; camera  0; f 1.875x1.875; poses 34
+21:44:09 [App     ] Scene loaded from interface format (40ms):
+	34 images (34 calibrated) with a total of 16.81 MPixels (0.49 MPixels/image)
+	6017 points, 0 vertices, 0 faces
+21:44:09 [App     ] Mesh loaded: 132058 vertices, 264112 faces (92ms)
+21:44:42 [App     ] Assigning the best view to each face completed: 264112 faces (33s123ms)
+21:44:58 [App     ] Generating texture atlas and image completed: 2389 patches, 2048 image size, 1 textures (14s508ms)
+21:44:58 [App     ] Mesh texturing completed: 132058 vertices, 264112 faces (48s953ms)
+21:45:00 [App     ] Mesh saved: 132058 vertices, 264112 faces (1s762ms)
+21:45:00 [App     ] MEMORYINFO: {
+21:45:00 [App     ] 	VmPeak:	 3238040 kB
+21:45:00 [App     ] 	VmSize:	 2506684 kB
+21:45:00 [App     ] } ENDINFO

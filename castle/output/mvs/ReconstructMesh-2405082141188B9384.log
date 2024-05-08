@@ -1,0 +1,25 @@
+21:41:18 [App     ] OpenMVS x64 v2.3.0
+21:41:18 [App     ] Build date: Apr 23 2024, 21:41:43
+21:41:18 [App     ] CPU: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz (16 cores)
+21:41:18 [App     ] RAM: 9.72GB Physical Memory 10.00GB Virtual Memory
+21:41:18 [App     ] OS: Linux 5.15.146.1-microsoft-standard-WSL2 (x86_64)
+21:41:18 [App     ] Disk: 47.93GB (91.80GB) space
+21:41:18 [App     ] SSE & AVX compatible CPU & OS detected
+21:41:18 [App     ] Command line: ReconstructMesh scene_dense.mvs -w tests/castle/output/mvs
+21:41:18 [App     ] Camera model loaded: platform 0; camera  0; f 0.789x0.789; poses 12
+21:41:19 [App     ] Scene loaded from interface format (123ms):
+	12 images (12 calibrated) with a total of 5.93 MPixels (0.49 MPixels/image)
+	13666 points, 0 vertices, 0 faces
+21:41:19 [App     ] Point-cloud 'scene_dense.ply' loaded: 301136 points (292ms)
+21:41:21 [App     ] Delaunay tetrahedralization completed: 301136 points -> 129662 vertices, 834764 (+176) cells, 1669616 (+264) faces (1s851ms)
+21:41:24 [App     ] Delaunay tetrahedras weighting completed: 834940 cells, 1669880 faces (2s752ms)
+21:41:26 [App     ] Delaunay tetrahedras graph-cut completed (72753.9 flow): 126828 vertices, 253717 faces (2s82ms)
+21:41:27 [App     ] Mesh reconstruction completed: 126902 vertices, 253717 faces (8s53ms)
+21:41:28 [App     ] Cleaned mesh: 126779 vertices, 253390 faces (1s130ms)
+21:41:29 [App     ] Cleaned mesh: 126779 vertices, 253393 faces (1s19ms)
+21:41:30 [App     ] Cleaned mesh: 126779 vertices, 253393 faces (475ms)
+21:41:30 [App     ] Mesh saved: 126779 vertices, 253393 faces (525ms)
+21:41:30 [App     ] MEMORYINFO: {
+21:41:30 [App     ] 	VmPeak:	 1584684 kB
+21:41:30 [App     ] 	VmSize:	 1458560 kB
+21:41:30 [App     ] } ENDINFO

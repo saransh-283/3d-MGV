@@ -1,0 +1,21 @@
+21:50:23 [App     ] OpenMVS x64 v2.3.0
+21:50:24 [App     ] Build date: Apr 23 2024, 21:41:43
+21:50:24 [App     ] CPU: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz (16 cores)
+21:50:24 [App     ] RAM: 9.72GB Physical Memory 10.00GB Virtual Memory
+21:50:24 [App     ] OS: Linux 5.15.146.1-microsoft-standard-WSL2 (x86_64)
+21:50:24 [App     ] Disk: 46.57GB (91.80GB) space
+21:50:24 [App     ] SSE & AVX compatible CPU & OS detected
+21:50:24 [App     ] Command line: TextureMesh scene_dense.mvs -m scene_dense_mesh.ply -w tests/skull/output/mvs --export-type obj -o skull.obj
+21:50:24 [App     ] Camera model loaded: platform 0; camera  0; f 1.912x1.912; poses 68
+21:50:24 [App     ] Scene loaded from interface format (64ms):
+	68 images (68 calibrated) with a total of 33.62 MPixels (0.49 MPixels/image)
+	29517 points, 0 vertices, 0 faces
+21:50:24 [App     ] Mesh loaded: 246238 vertices, 492472 faces (113ms)
+21:51:40 [App     ] Assigning the best view to each face completed: 492472 faces (1m15s381ms)
+21:52:00 [App     ] Generating texture atlas and image completed: 4502 patches, 4096 image size, 1 textures (20s425ms)
+21:52:00 [App     ] Mesh texturing completed: 246238 vertices, 492472 faces (1m36s187ms)
+21:52:03 [App     ] Mesh saved: 246238 vertices, 492472 faces (2s727ms)
+21:52:04 [App     ] MEMORYINFO: {
+21:52:04 [App     ] 	VmPeak:	 3714224 kB
+21:52:04 [App     ] 	VmSize:	 2681756 kB
+21:52:04 [App     ] } ENDINFO
