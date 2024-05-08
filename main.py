@@ -94,7 +94,7 @@ def process_video(video_path):
         {"title": "Export to OpenMVS", "command": f"{OPENMVG_BIN}/openMVG_main_openMVG2openMVS -i {sfm_dir}/sfm_data.bin -o {mvs_dir}/scene.mvs -d {mvs_dir}"},
         {"title": "Densify point cloud", "command": f"{OPENMVS_BIN}/DensifyPointCloud scene.mvs -w {mvs_dir}"},
         {"title": "ReconstructMesh", "command": f"{OPENMVS_BIN}/ReconstructMesh scene_dense.mvs -w {mvs_dir}"},
-        {"title": "Texture mesh", "command": f"{OPENMVS_BIN}/TextureMesh scene_dense.mvs -m scene_dense_mesh.ply -w {mvs_dir} --export-type obj"}
+        {"title": "Texture mesh", "command": f"{OPENMVS_BIN}/TextureMesh scene_dense.mvs -m scene_dense_mesh.ply -w {mvs_dir} --export-type obj -o {base_name}.obj"}
     ]
 
     total_steps = len(commands)
@@ -108,9 +108,9 @@ def process_video(video_path):
     total_time = datetime.now() - start_time
     total_str = f"{total_time.seconds // 3600:02d}:{(total_time.seconds // 60) % 60:02d}:{total_time.seconds % 60:02d}"
     print(f"{Fore.CYAN}{'-'*50}\n{Fore.GREEN}Total time taken: {total_str}")
-    model_path = os.path.join(mvs_dir, f"{base_name}.ply")
-    texture_path = os.path.join(mvs_dir, f"{base_name}_texture.png")
-    print(f"{Fore.CYAN}Model: {Fore.YELLOW}{model_path}\n{Fore.CYAN}Texture: {Fore.YELLOW}{texture_path}")
+    model_path = os.path.join(mvs_dir, f"{base_name}.obj")
+    material_path = os.path.join(mvs_dir, f"{base_name}_00_material_map_Kd.jpg")
+    print(f"{Fore.CYAN}Model: {Fore.YELLOW}{model_path}\n{Fore.CYAN}Texture: {Fore.YELLOW}{material_path}")
 
 if __name__ == "__main__":
     clear_screen()
